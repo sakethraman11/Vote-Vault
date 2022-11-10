@@ -1,0 +1,24 @@
+{
+
+
+
+  "server": {
+    "baseDir": ["./src","./src/images", "./build/contracts"]
+  },
+
+
+   "injectChanges": true,
+    "files": ["./**/*.{html,css,js,jpg,svg}"],
+    "watchOptions": {
+      "ignored": [
+        "node_modules",
+        "src/**/*.*",
+        "app/**/*.js"
+      ]
+    }
+
+
+
+
+
+}
